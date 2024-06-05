@@ -1,0 +1,45 @@
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.todo-item {
+  flex: 1;
+  font-size: 18px;
+  list-style: none;
+}
+
+.complete-btn,
+.trash-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.complete-btn {
+  color: green;
+}
+
+.trash-btn {
+  color: red;
+}
+
+.completed {
+  text-decoration: line-through solid rgb(0, 0, 0);
+}
+
+.complete-btn,
+.trash-btn {
+  background: #e4e4e4;
+  border-radius: 6px;
+  padding: 8px 6px;
+  margin: 0 8px;
+  cursor: pointer;
+}
